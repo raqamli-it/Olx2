@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',   # Token authentication
     'rest_framework_simplejwt',   # JWT authentication
     'corsheaders',                # CORS uchun (frontend bilan ulanish)
+    'drf_yasg',  # <-- qo‘shish shart
+
     
     # Local apps
     'users',         # Login, register, profile
